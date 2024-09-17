@@ -32,10 +32,16 @@ In the event you use the web based version of discord rather than the app, Tampe
 - Remove All - https://github.com/Multarix/Discord-Remove-useless-chat-buttons/raw/main/all.user.js
 - Keep GIF - https://github.com/Multarix/Discord-Remove-useless-chat-buttons/raw/main/keepGif.user.js
 
+## Vencord/Betterdiscord
+
+Raw link here:
+- Remove All - https://raw.githubusercontent.com/Bonkeyzz/Discord-Remove-useless-chat-buttons/main/RemoveChatButtonsAll.theme.css
+- Keep GIF - https://raw.githubusercontent.com/Bonkeyzz/Discord-Remove-useless-chat-buttons/main/RemoveChatButtons.theme.css
+
 #### Quick Access: All Version
 
 ```js
-const buttonsToHide = ["Open GIF picker", "Open sticker picker", "Send a gift", "Boost this server"];
+const buttonsToHide = ["Open GIF picker", "Open sticker picker", "Send a gift", "Boost this server", "Apps"];
 let css = "";
 buttonsToHide.forEach(button => css = css.concat(`[aria-label="${button}"]{display:none}`));
 css = css.concat('[id="channel-attach-THREAD"]{display:none}');
@@ -47,7 +53,7 @@ document.body.appendChild(style);
 #### Quick Access: Keep GIF Version
 
 ```js
-const buttonsToHide = ["Open sticker picker", "Send a gift", "Boost this server"];
+const buttonsToHide = ["Open sticker picker", "Send a gift", "Boost this server", "Apps"];
 let css = "";
 buttonsToHide.forEach(button => css = css.concat(`[aria-label="${button}"]{display:none}`));
 css = css.concat('[id="channel-attach-THREAD"]{display:none}');
