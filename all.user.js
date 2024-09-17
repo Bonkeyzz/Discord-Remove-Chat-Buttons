@@ -11,7 +11,7 @@
 // @description Working as of: 21/08/2024
 // ==/UserScript==
 
-const buttonsToHide = ["Open GIF picker", "Open sticker picker", "Send a gift", "Boost this server"];
+const buttonsToHide = ["Open GIF picker", "Open sticker picker", "Send a gift", "Boost this server", "Apps"];
 let css = "";
 buttonsToHide.forEach(button => css = css.concat(`[aria-label="${button}"]{display:none}`));
 css = css.concat('[id="channel-attach-THREAD"]{display:none}');
