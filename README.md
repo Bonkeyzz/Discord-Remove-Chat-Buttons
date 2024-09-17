@@ -18,5 +18,5 @@ Raw link here:
 For BetterDiscord, download the desired CSS file and put it in your `themes` folder.
 
 # Notice
-The .js files are userscripts you can use in the browser, though if you are experienced enough to use the develoeper console in your discord client/browser you can copy/paste the script there. You will need to follow the guide in the original repo.
+The .js files are userscripts you can use in the browser or can be pasted directly in the Developer console, though if you are experienced enough to use the develoeper console and want to go down that route, you will need to follow the guide in the original repo.
 **IMPORTANT NOTICE: While this code is clean, I ADVISE TO NOT PASTE ANY CODE IN THE DEV CONSOLE. I AM NOT RESPONSIBLE FOR ANYTHING THAT HAPPENS. I strongly advise to use the CSS files and a modded client like Vencord/BetterDiscord or OpenAsar which all allow custom theming.**
