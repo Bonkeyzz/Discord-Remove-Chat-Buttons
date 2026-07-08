@@ -9,6 +9,9 @@
 [aria-label="Apps"] {
 display:none
 }
+[aria-label="Open Emoji picker"] {
+display:none
+}
 [aria-label="Open GIF picker"] {
 display:none
 }
@@ -19,11 +22,5 @@ display:none
 display:none
 }
 [aria-label="Boost this server"] {
-display:none
-}
-[id="channel-attach-THREAD"] {
-display:none
-}
-div[class^="channelAppLauncher"] {
 display:none
 }
